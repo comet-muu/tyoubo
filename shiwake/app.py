@@ -109,7 +109,9 @@ if len(tekiyou_kari) == 1 and len(tekiyou_kasi) == 1:
       st['C' + str(d + 1)].alignment = Alignment(horizontal = 'right',
                                              vertical = 'center')
       st['D' + str(d)] = tekiyou_kariri[0]
+      st['D' + str(d)].alignment = Alignment(horizontal = 'right')
       st['D' + str(d + 1)] = tekiyou_kasisi[0]
+      st['D' + str(d + 1)].alignment = Alignment(horizontal = 'right')
       st['E' + str(d)] = '{:,d}'.format(amount_kari[0])
       st['E' + str(d)].alignment = Alignment(horizontal = 'right')
       st['F' + str(d + 1)] = '{:,d}'.format(amount_kasi[0])
@@ -131,8 +133,11 @@ elif len(tekiyou_kari) == 2 and len(tekiyou_kasi) == 1:
       st['C' + str(d)].alignment = Alignment(horizontal = 'right',
                                              vertical = 'center')
       st['D' + str(d + 1)] = tekiyou_kariri[0]
+      st['D' + str(d + 1)].alignment = Alignment(horizontal = 'right')
       st['D' + str(d + 2)] = tekiyou_kariri[1]
+      st['D' + str(d + 2)].alignment = Alignment(horizontal = 'right')
       st['D' + str(d)] = tekiyou_kasisi[0]
+      st['D' + str(d)].alignment = Alignment(horizontal = 'right')
       st['E' + str(d + 1)] = '{:,d}'.format(amount_kari[0])
       st['E' + str(d + 1)].alignment = Alignment(horizontal = 'right')
       st['E' + str(d + 2)] = '{:,d}'.format(amount_kari[1])

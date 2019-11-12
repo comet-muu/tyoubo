@@ -1,7 +1,7 @@
-ddd = {"month":5,
-"day":1,
-"tekiyou_kari":"1",
-"tekiyou_kasi":"2",
-"tekiyou_com":"11111",
-"amount_kari":1,
-"amount_kasi":1}
+ddd = {"month":6,
+"day":5,
+"tekiyou_kari":"3",
+"tekiyou_kasi":"10",
+"tekiyou_com":"コピー代（税務署提出書類）",
+"amount_kari":50,
+"amount_kasi":50}

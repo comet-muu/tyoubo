@@ -22,7 +22,7 @@ def formdata(request):
                   tekiyou_com = request.POST.get("tekiyou_com","")
                   amount_kari = request.POST.get("amount_kari","")
                   amount_kasi = request.POST.get("amount_kasi","")
-                  dd = open('.\\shiwake\\dicdic.py','w')
+                  dd = open('.\\shiwake\\dicdic.py','w',encoding='utf-8')
                   dd.write('ddd = {"month":' + month + ',\n"day":' + day + ',\n"tekiyou_kari":"' + tekiyou_kari + '",\n"tekiyou_kasi":"' + tekiyou_kasi + '",\n"tekiyou_com":"' + tekiyou_com + '",\n"amount_kari":' + amount_kari + ',\n"amount_kasi":' + amount_kasi + '}')
                   dd.close()
                   from . import app
